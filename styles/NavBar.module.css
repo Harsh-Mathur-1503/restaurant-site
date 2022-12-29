@@ -5,9 +5,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
+    position: sticky !important;
     top: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 999 !important;
 }
 
 .item{

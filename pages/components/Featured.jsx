@@ -5,9 +5,9 @@ import { useState } from "react";
 const Featured = () => {
   const [index, setIndex] = useState(0);
   const images = [
-    "/img/food1.png",
-    "/img/food2.png",
-    "/img/food3.png",
+    "/img/food1.jpg",
+    "/img/food2.jpg",
+    "/img/food3.jpg",
   ];
 
   const handleArrow = (direction) =>{
