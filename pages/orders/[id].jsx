@@ -18,13 +18,13 @@ const statusClass = (index) =>{
         <div className={styles.row}>
         <table className={styles.table}>
                 <tbody>
-                <tr className={styles.tr}>
+                <tr className={styles.trTitle}>
                     <th>Order ID</th>
                     <th>Customer</th>
                     <th>Address</th>
                     <th>Total</th>
                     </tr>
-                    <tr>
+                    <tr className={styles.tr}>
                         <td>
                             <span className={styles.id}>
                                 123456789

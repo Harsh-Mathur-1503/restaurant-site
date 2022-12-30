@@ -79,3 +79,53 @@
 .undone .checkedIcon , .inProgress .checkedIcon{
     display: none;
 }
+
+@media screen and (max-width:480px) {
+    .container{
+        flex-direction: column;
+    }
+    .trTitle{
+        display: none;
+    }
+
+    .tr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+    }
+    .id::before{
+        content: "Order ID: ";
+        font-weight: bolder;
+    }
+    .name::before{
+        content: "Customer: ";
+        font-weight: bolder;
+    }
+
+    .address::before{
+        content: "Address: ";
+        font-weight: bolder;
+    }
+
+    .total::before{
+        content: "Total: ";
+        font-weight: bolder;
+    }
+
+    .row:last-child{
+        width: 100%;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .undone , .inProgress , .done{
+        margin-bottom: 30px; 
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+
+}
